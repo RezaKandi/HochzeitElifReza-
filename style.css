@@ -1,1 +1,66 @@
-Platzhalterinhalt
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+header {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  text-align: center;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: url('IMG_4946.JPG') no-repeat center center/cover;
+  background-blend-mode: overlay;
+  background-color: rgba(255,255,255,0.8);
+}
+#countdown {
+  padding: 2rem;
+  background: url('IMG_4990.JPG') no-repeat center center/cover;
+  background-blend-mode: overlay;
+  background-color: rgba(255,255,255,0.8);
+}
+#fotos {
+  padding: 2rem;
+  background: url('IMG_1020.jpg') no-repeat center center/cover;
+  background-blend-mode: overlay;
+  background-color: rgba(255,255,255,0.8);
+}
+#info {
+  padding: 2rem;
+  background: url('WhatsApp Image 2025-05-26 at 13.59.08 (1).jpeg') no-repeat center center/cover;
+  background-blend-mode: overlay;
+  background-color: rgba(255,255,255,0.8);
+}
+.buttons a {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #d4af37;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+audio {
+  margin-top: 1rem;
+}
